@@ -1,4 +1,4 @@
-#Question
+# Question
 In Section 2.3, we described a program that copies the contents of one file
 to a destination file. This program works by first prompting the user for
 the name of the source and destination files. Write this program using
