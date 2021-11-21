@@ -17,10 +17,10 @@ unsigned long address;
 
 
 address= atoll(argv[1]);
-/* Page Number =  quotient of  address / 4KB and offset = remainder*/
-/*Below is the faster method of calculating the same*/
+/* Page Number =  quotient of  address / 4KB 
+offset = remainder*/
 
-page = address >> 12; /* Since page size is 4KB => 12 bits holding the virtual address*/
+page = address >> 12;
 offset = address & 0xfff;
 
 printf("The address %lu contains: \n", address);
